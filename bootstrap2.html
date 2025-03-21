@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>esercizio 8</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap2.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm bg-body-tertiary position-absolute w-100">
+        <!-- container nav-->
+        <div class="container-sm bg-nav rounded-bottom w-60 p-1">
+            <a class="navbar-brand" href="#">Giappone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Viaggia
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Ancora piccoli passi</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Clicca qui in basso per confrontare i migliori prezzi di tutti i voli diretti in Giappone</a>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                                <button type="button" class="btn btn-primary">
+                                    <a href="https://www.booking.com/flights/destination/city/jp/tokyo.it.html?&label=tokyo-MYP3ABVqKUlsKMn5uCNefAS651210845468:pl:ta:p1:p2:ac:ap:neg:fi:tikwd-319327429092:lp1008835:li:dec:dm&ws=&aid=2283213&gad_source=1&gclid=CjwKCAjwnPS-BhBxEiwAZjMF0qDAzSMhi3O2IN8FykIAuHaoIlBgRf5W-mz9Jvi3u8_45ySZEZSAcBoCWssQAvD_BwE" target="_blank">Voli
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- carousel hero -->
+    <header id="carouselExample" class=" carousel slide" data-bs-ride="carousel">
+        <div class="hero carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.blueberrytravel.it/wp-content/webp-express/webp-images/uploads/2021/02/giappone_hiroshima_blueberrytravel.jpg.webp" class="d-block img-fluid w-100" alt="giappone">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.kanaloa.it/wp-content/uploads/2019/02/kanaloa-viaggi-in-libert%C3%A0-giappone-oriente-07.jpg" class="d-block  w-100" alt="giappone">
+            </div>
+            <div class="carousel-item">
+                <img src="https://dtto066vr4z0c.cloudfront.net/id12665_146744.jpg" class="d-block  w-100" alt="giappone">
+            </div>
+        </div>
+    </header>
+    <!-- card città -->
+    <main class="bg-main">
+        <div class="container-sm text-center">
+            
+            <!-- prima row -->
+            <div class="row">
+                <div class="col-lg-6 col-md-12 d-flex justify-content-evenly">
+                    <div class="card">
+                        <img src="tokyo.jpg" class="card-img-top img-fluid d-none d-lg-block" alt="tokyo">
+                        <div class="card-body">
+                            <h5 class="card-title">Tokyo</h5>
+                            <p class="card-text">la capitale del Giappone e l’area metropolitana più popolata del mondo. È una delle città più affascinanti di tutto il pianeta, dove sono presenti maestosi templi legati alla cultura tradizionale del Giappone, così come le splendenti luci al neon di Shibuya.</p>
+                            <a href="https://www.jrailpass.com/blog/it/citta/tokyo-guida" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 d-flex justify-content-evenly">
+                    <div class="card">
+                        <img src="kyoto.jpg" class="card-img-top img-fluid d-none d-lg-block" alt="kyoto">
+                        <div class="card-body">
+                            <h5 class="card-title">Kyoto</h5>
+                            <p class="card-text">considerata da molti la città più bella del Giappone, è stata la sua capitale fino a quando la sede del governo è stata trasferita a Tokyo nel 1868. Tuttavia, Kyoto rappresenta ancora oggi il centro religioso del Giappone, grazie alla presenza di oltre 1000 templi buddisti.</p>
+                            <a href="https://www.jrailpass.com/blog/it/citta/kyoto-guida" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- seconda row -->
+            <div class="row">
+                <div class="col-lg-4 col-md-12 d-flex justify-content-evenly">
+                    <div class="card">
+                        <img src="osaka.jpg" class="card-img-top img-fluid d-none d-lg-block" alt="osaka">
+                        <div class="card-body">
+                            <h5 class="card-title">Osaka</h5>
+                            <p class="card-text">la terza città più grande del Giappone ed è stata anche la prima capitale del paese. Viene considerato uno scalo economico molto importante del Giappone. Infatti, ospita il porto marittimo più grande del paese e molti dei produttori giapponesi principali.</p>
+                            <a href="https://www.jrailpass.com/blog/it/citta/osaka-guida" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 d-flex justify-content-evenly">
+                    <div class="card">
+                        <img src="kobe.jpg" class="card-img-top img-fluid d-none d-lg-block" alt="kobe">
+                        <div class="card-body">
+                            <h5 class="card-title">Kobe</h5>
+                            <p class="card-text">Incastonata tra il mare e una maestosa catena montuosa, Kobe si trova vicino a Osaka e Kyoto, ed è considerata anche una delle città portuali più belle del Giappone… senza dimenticare la deliziosa carne di Kobe!</p>
+                            <a href="https://www.google.com/search?q=kobe&rlz=1C1GCEA_enIT1088IT1088&oq=kobe&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEggBEC4YQxjUAhixAxiABBiKBTISCAIQLhhDGNQCGLEDGIAEGIoFMg0IAxAuGIMBGLEDGIAEMg0IBBAuGNQCGLEDGIAEMg0IBRAuGMcBGNEDGIAEMgcIBhAAGIAEMgYIBxBFGDzSAQgyNzgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 d-flex justify-content-evenly">
+                    <div class="card">
+                        <img src="nara.jpg" class="card-img-top img-fluid d-none d-lg-block" alt="Nara">
+                        <div class="card-body">
+                            <h5 class="card-title">Nara</h5>
+                            <p class="card-text">Nara è stata la prima “vera” capitale del Giappone, rimanendo tale per meno di un secolo. Questa sede storica è sede di otto siti Patrimonio dell’Umanità dell’UNESCO, tra cui numerosi templi buddisti e il possente Todai-ji, sede della più grande statua di Buddha in bronzo del mondo.</p>
+                            <a href="https://www.google.com/search?q=nara&rlz=1C1GCEA_enIT1088IT1088&oq=nara&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyDwgBEC4YQxixAxiABBiKBTIKCAIQABixAxiABDISCAMQLhhDGK8BGMcBGIAEGIoFMgoIBBAuGLEDGIAEMgoIBRAAGLEDGIAEMhAIBhAAGIMBGLEDGIAEGIoFMgYIBxBFGDzSAQgxNTkyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
